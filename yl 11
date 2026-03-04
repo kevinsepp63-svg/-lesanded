@@ -1,0 +1,18 @@
+# Küsi kasutajalt sisend
+s = input("Sisesta string: ")
+
+# Eemalda algusest ja lõpust tühikud
+s = s.strip()
+
+# Kontrolli tingimusi:
+# vähemalt 7 sümbolit ja pikkus peab olema paaritu
+if len(s) >= 7 and len(s) % 2 == 1:
+    
+    # Leiame kolm keskmist sümbolit
+    kesk = len(s) // 2               # keskne indeks
+    kolm_keskmist = s[kesk-1 : kesk+2]
+    
+    print("Kolm keskmist sümbolit:", kolm_keskmist)
+
+else:
+    print("String peab olema vähemalt 7 tähemärki ja paaritu pikkusega.")
