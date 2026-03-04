@@ -1,0 +1,35 @@
+# 1. Anna muutuja väärtuseks list kolmest oma lemmik puuviljast ja väljasta see
+puuviljad = ["õun", "banaan", "maasikas"]
+print(puuviljad)
+
+# 2. Väljasta listi esimene väärtus
+print(puuviljad[0])
+
+# 3. Lisa listi lõppu uus puuvili
+puuviljad.append("pirn")
+
+# 4. Väljasta listi viimane väärtus
+print(puuviljad[-1])
+
+# 5. Muuda ühe elemendi väärtust ja väljasta kogu list
+puuviljad[1] = "apelsin"
+print(puuviljad)
+
+# 6. Kontrolli kas väärtus (nt "õun") eksisteerib listis
+if "õun" in puuviljad:
+    print("Õun on listis olemas.")
+
+# 7. Väljasta listi pikkus
+print(len(puuviljad))
+
+# 8. Eemalda listist element ja väljasta kogu list
+puuviljad.remove("maasikas")
+print(puuviljad)
+
+# 9. Muuda listi järjekord vastupidiseks
+puuviljad.reverse()
+print(puuviljad)
+
+# 10. Sorteeri list ja väljasta
+puuviljad.sort()
+print(puuviljad)
