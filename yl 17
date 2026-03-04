@@ -1,0 +1,5 @@
+i = 1
+while i <= 5:
+    print(isik["elukoht"]) # ilma get() meetodita
+    print(isik.get("elukoht")) # get() meetodiga
+
