@@ -1,0 +1,18 @@
+# Küsi kasutajalt lemmikloom
+lemmikloom = input("Sisesta oma lemmikloom: ")
+
+# Väljasta selle muutuja esimene täht
+print("Lemmiklooma esimene täht:", lemmikloom[0])
+
+# Koosta list, mis koosneb kolmest loomast
+loomad = ["kass", "koer", "hamster"]
+
+# Lisa listi lõppu kasutaja sisestatud lemmikloom
+loomad.append(lemmikloom)
+
+# Väljasta loomade list
+print("Loomade list:", loomad)
+
+# Väljasta listi viimase elemendi viimane täht
+viimane_looma_nimi = loomad[-1]
+print("Viimase looma viimane täht:", viimane_looma_nimi[-1])
