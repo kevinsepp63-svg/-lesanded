@@ -1,0 +1,8 @@
+# Küsi kasutajalt failinimi
+failinimi = input("Sisesta failinimi kujul 'failinimi.ext': ")
+
+# Jaga sõne punktist ja võta viimane osa (laiend)
+laiend = failinimi.split(".")[-1]
+
+# Väljasta laiend
+print("Faili laiend on:", laiend)
