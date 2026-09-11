@@ -1,14 +1,14 @@
-# Küsi kasutajalt nimi ja tervita teda
+
 nimi = input("Sisesta oma nimi: ")
 print("Tere, " + nimi + "!")
 
-# Küsi kasutajalt elukoht ja reageeri vastusele
+
 elukoht = input("Sisesta oma elukoht: ")
 
 if elukoht.lower() == "saaremaa":
     print("Saaremaal on väga ilus loodus!")
 
-# Küsi kasutajalt vanus ja reageeri vastusele
+
 vanus = int(input("Sisesta oma vanus: "))
 
 if vanus < 18:
